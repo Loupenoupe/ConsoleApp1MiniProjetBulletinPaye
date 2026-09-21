@@ -13,7 +13,6 @@
             const decimal tauxCrds = 0.005m;
 
             // Taux de cotisations patronales
-            const decimal tauxComplementaireSantePatro = ;
             const decimal tauxMaladie = 0.073m;
             const decimal tauxCotisationAccidentMaladie = 0.0224m;
             const decimal tauxVieillessePatro = 0.1045m;
@@ -26,7 +25,7 @@
             const decimal tauxFormation = 0.0055m;
             const decimal tauxApprentissage = 0.0068m;
             const decimal tauxContribSociale = 0.0002m;
-            const decimal tauxExoneration = 0.0032m;
+            const decimal tauxExoneration = 0.32m;
 
             // Informations employé
             string nomEntreprise = "Association ADD";
