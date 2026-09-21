@@ -6,16 +6,16 @@
 
 L'objectif du projet est de permettre la génération d'un bulletin de paie à partir des informations saisies concernant un salarié.
 
-L'application calcule notamment :
+L'application permet notamment de calculer :
 
 - le salaire brut ;
 - les cotisations salariales ;
 - les cotisations patronales ;
 - les exonérations ;
 - le salaire net ;
-- le coût total pour l'employeur.
+- le montant total employeur.
 
-> **Attention :** les taux et calculs présents dans ce projet sont ceux définis dans le code de l'application. Ils constituent un exercice/projet informatique et ne doivent pas être considérés comme un calculateur officiel de paie.
+> **Attention :** les taux et calculs présents dans ce projet correspondent à ceux définis dans le code de l'application. Ce projet est réalisé à des fins pédagogiques et ne constitue pas un outil officiel de calcul de paie.
 
 ---
 
@@ -30,7 +30,7 @@ L'application calcule notamment :
 - Calcul de l'exonération patronale
 - Calcul du salaire net
 - Calcul du montant total employeur
-- Affichage du bulletin de paie directement dans la console
+- Affichage du bulletin de paie dans la console
 
 ---
 
@@ -39,33 +39,20 @@ L'application calcule notamment :
 - **C#**
 - **.NET**
 - Application console
-- `decimal` pour les calculs monétaires
+- Type `decimal` pour les calculs monétaires
 
 ---
 
-# Prérequis
+## Prérequis
 
-Avant de pouvoir compiler et exécuter le projet, il faut installer le **SDK .NET** sur votre ordinateur.
+Pour compiler et exécuter le projet, vous devez disposer de :
 
-Le SDK contient notamment :
+- **.NET SDK**
+- **Git** (facultatif, uniquement pour cloner le dépôt)
 
-- le compilateur C# ;
-- la commande `dotnet` ;
-- les outils nécessaires pour créer, compiler et exécuter une application .NET.
+### Vérifier l'installation de .NET
 
-## Vérifier si .NET est déjà installé
-
-Ouvrez un terminal :
-
-### Windows
-
-Ouvrez **PowerShell** ou **Invite de commandes**.
-
-### Linux / macOS
-
-Ouvrez votre terminal.
-
-Puis exécutez :
+Ouvrez un terminal et exécutez :
 
 ```bash
 dotnet --version
